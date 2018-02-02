@@ -11820,16 +11820,16 @@ angular.module('mm.core.login', [])
         url: '/site',
         templateUrl: 'core/components/login/templates/site.html',
         controller: 'mmLoginSiteCtrl'
-    })
-    .state('mm_login.credentials', {
-        url: '/cred',
-        templateUrl: 'core/components/login/templates/credentials.html',
-        controller: 'mmLoginCredentialsCtrl',
 		/**-------------------------------add code start----------------------------------------------*/
 		onEnter: function($state) {
 			$state.go('mm_login.credentials', {siteurl: 'http://learn.sun.ac.za'});  // (here is my institution Moodle URL)
 		} 
 		/**--------------------------add code end---------------------------------------------------*/
+    })
+    .state('mm_login.credentials', {
+        url: '/cred',
+        templateUrl: 'core/components/login/templates/credentials.html',
+        controller: 'mmLoginCredentialsCtrl',
         params: {
             siteurl: '',
             username: '',
