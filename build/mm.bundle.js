@@ -11825,6 +11825,11 @@ angular.module('mm.core.login', [])
         url: '/cred',
         templateUrl: 'core/components/login/templates/credentials.html',
         controller: 'mmLoginCredentialsCtrl',
+		/**-------------------------------add code start----------------------------------------------*/
+		onEnter: function($state) {
+			$state.go('mm_login.credentials', {siteurl: 'http://learn.sun.ac.za'});  // (here is my institution Moodle URL)
+		} 
+		/**--------------------------add code end---------------------------------------------------*/
         params: {
             siteurl: '',
             username: '',
