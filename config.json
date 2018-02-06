@@ -11,8 +11,9 @@
     "wsextservice" : "local_mobile",
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-	"multisitesdisplay": "select",
+	"presets" : {"url": "http://learn.sun.ac.za", "username": "cmeder"},
 	"siteurl": "http://learn.sun.ac.za",
+	"multisitesdisplay": "select",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
     "privacypolicy": "http://www.sun.ac.za/english/Documents/Privacy%20Notices/170314_Privacy%20Notice%20template_Maties.pdf"
