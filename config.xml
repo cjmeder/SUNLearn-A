@@ -4,7 +4,7 @@
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.moodle.sunlearn"
         versionCode = "20300"
-        version   = "1.5">
+        version   = "2.3">
     <name>SUNLearn Mobile</name>
 
     <description>
