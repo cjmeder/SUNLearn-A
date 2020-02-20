@@ -57,6 +57,18 @@
     },
     "wsservice": "moodle_mobile_app",
     "wsextservice": "local_mobile",
+    "demo_sites": {
+        "student": {
+            "url": "https:\/\/school.moodledemo.net",
+            "username": "student",
+            "password": "moodle"
+        },
+        "teacher": {
+            "url": "https:\/\/school.moodledemo.net",
+            "username": "teacher",
+            "password": "moodle"
+        }
+    },
     "font_sizes": [
         62.5,
         75.89,
@@ -68,7 +80,7 @@
     "multisitesdisplay": "",
     "skipssoconfirmation": false,
     "forcedefaultlanguage": false,
-    "privacypolicy": "http://www.sun.ac.za/english/Documents/Privacy%20Notices/170314_Privacy%20Notice%20template_Maties.pdf",
+    "privacypolicy": "http:\/\/www.sun.ac.za\/english\/Documents\/Privacy%20Notices\/170314_Privacy%20Notice%20template_Maties.pdf",
     "notificoncolor": "#60223b",
     "statusbarbg": false,
     "statusbarlighttext": false,
