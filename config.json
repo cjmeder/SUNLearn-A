@@ -57,8 +57,7 @@
     },
     "wsservice": "moodle_mobile_app",
     "wsextservice": "local_mobile",
-    },
-	"font_sizes": [
+    "font_sizes": [
         62.5,
         75.89,
         93.75
