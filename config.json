@@ -63,12 +63,19 @@
         93.75
     ],
     "customurlscheme": "moodlemobile",
-    "siteurl": ["https://learn.sun.ac.za","https://studentfeedback.sun.ac.za"],
-    "sitename": ["SUNLearn","StudentFeedback",]
+    "siteurl": {
+        "SUNLearn": {
+            "url": "https:\/\/learn.sun.ac.za",
+        },
+        "StudentFeedback": {
+            "url": "https:\/\/studentfeedback.sun.ac.za",
+        }
+    },
+    "sitename": "",
     "multisitesdisplay": "buttons",
     "skipssoconfirmation": false,
     "forcedefaultlanguage": false,
-    "privacypolicy": "https:\/\/moodle.org\/mod\/page\/view.php?id=8148",
+    "privacypolicy": "http:\/\/www.sun.ac.za\/english\/Documents\/Privacy%20Notices\/170314_Privacy%20Notice%20template_Maties.pdf",
     "notificoncolor": "#60223b",
     "statusbarbg": false,
     "statusbarlighttext": false,
