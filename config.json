@@ -63,14 +63,14 @@
         93.75
     ],
     "customurlscheme": "moodlemobile",
-    "siteurl": {
-        "SUNLearn": {
-            "url": "https:\/\/learn.sun.ac.za",
-        },
-        "StudentFeedback": {
-            "url": "https:\/\/studentfeedback.sun.ac.za",
-        }
-    },
+    "siteurl": 	[
+
+    {"name": "SUNLearn", "url": "https:\/\/learn.sun.ac.za"},
+
+    {"name": "StudentFeedback", "url": "https:\/\/studentdentback.sun.ac.za"},
+
+				],
+
     "sitename": "",
     "multisitesdisplay": "buttons",
     "skipssoconfirmation": false,
